@@ -8,4 +8,4 @@ jobs:
       - name: Build
         shell: bash
         run: |
-          echo Dammit, Jim, I'm a programmer, not DevOps
+          echo Dammit, Jim, I\'m a programmer, not DevOps
