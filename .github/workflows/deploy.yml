@@ -1,0 +1,16 @@
+name: Deploy
+on:
+  workflow_run:
+    workflows:
+      - Build
+    types:
+      - completed
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        shell: bash
+        run: |
+          echo I'm givin 'er all she's got, Cap'n
