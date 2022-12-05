@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Build
+      - name: Deploy
         shell: bash
         run: |
           echo I'm givin 'er all she's got, Cap'n
